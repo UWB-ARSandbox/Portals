@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9421CA57-91A6-D24A-E020-38B3C6030DBF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Editor:5</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>5.6.5f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_5;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;VRTK_VERSION_3_2_1;VRTK_VERSION_3_2_1_OR_NEWER;VRTK_VERSION_3_1_0_OR_NEWER;VRTK_VERSION_3_2_0_OR_NEWER</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_5;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;VRTK_VERSION_3_2_1;VRTK_VERSION_3_2_1_OR_NEWER;VRTK_VERSION_3_1_0_OR_NEWER;VRTK_VERSION_3_2_0_OR_NEWER</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Advertisements">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Networking">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TestRunner">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TreeEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Analytics">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/Editor/UnityEditor.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.HoloLens">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/Editor/UnityEditor.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.VR">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets/ASL/Photon Unity Networking/Editor/PhotonNetwork/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>Assets/ASL/Plugins/Photon3Unity3D.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Assets/ASL/Plugins/WebSocket/websocket-sharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Portals.csproj">
+      <Project>{39B21595-109B-5F54-0A71-A25998ECF1C0}</Project>
+      <Name>Portals</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\ASL\3rd Party Libraries\OVR\Editor\OVRBuild.cs" />
+    <Compile Include="Assets\ASL\3rd Party Libraries\OVR\Editor\OVRLayerAttributeEditor.cs" />
+    <Compile Include="Assets\ASL\3rd Party Libraries\OVR\Editor\OVRManifestPreprocessor.cs" />
+    <Compile Include="Assets\ASL\3rd Party Libraries\OVR\Editor\OVRMoonlightLoader.cs" />
+    <Compile Include="Assets\ASL\3rd Party Libraries\OVR\Editor\OVRPluginUpdater.cs" />
+    <Compile Include="Assets\ASL\3rd Party Libraries\OVR\Editor\OVRPluginUpdaterStub.cs" />
+    <Compile Include="Assets\ASL\3rd Party Libraries\OVR\Editor\OVRScreenshotWizard.cs" />
+    <Compile Include="Assets\ASL\3rd Party Libraries\OVR\Scripts\Editor\OVRManagerEditor.cs" />
+    <Compile Include="Assets\ASL\3rd Party Libraries\Tango\DynamicShadowProjector\Scripts\Editor\DrawSceneObjectEditor.cs" />
+    <Compile Include="Assets\ASL\3rd Party Libraries\Tango\DynamicShadowProjector\Scripts\Editor\DrawTargetObjectEditor.cs" />
+    <Compile Include="Assets\ASL\3rd Party Libraries\Tango\DynamicShadowProjector\Scripts\Editor\EditorBase.cs" />
+    <Compile Include="Assets\ASL\3rd Party Libraries\Tango\DynamicShadowProjector\Scripts\Editor\MipmappedShadowFallbackEditor.cs" />
+    <Compile Include="Assets\ASL\3rd Party Libraries\Tango\DynamicShadowProjector\Scripts\Editor\ShadowTextureRendererEditor.cs" />
+    <Compile Include="Assets\ASL\3rd Party Libraries\Tango\TangoPrefabs\Editor\TangoArPoseControllerInspector.cs" />
+    <Compile Include="Assets\ASL\3rd Party Libraries\Tango\TangoPrefabs\Editor\TangoArScreenInspector.cs" />
+    <Compile Include="Assets\ASL\3rd Party Libraries\Tango\TangoPrefabs\Editor\TangoDeltaPoseControllerInspector.cs" />
+    <Compile Include="Assets\ASL\3rd Party Libraries\Tango\TangoPrefabs\Editor\TangoPointCloudInspector.cs" />
+    <Compile Include="Assets\ASL\3rd Party Libraries\Tango\TangoPrefabs\Editor\TangoPoseControllerInspector.cs" />
+    <Compile Include="Assets\ASL\3rd Party Libraries\Tango\TangoPrefabs\Editor\TangoPrefabInspectorHelper.cs" />
+    <Compile Include="Assets\ASL\3rd Party Libraries\Tango\TangoSDK\Editor\TangoInspector.cs" />
+    <Compile Include="Assets\ASL\3rd Party Libraries\Tango\TangoSDK\Editor\TangoMenu.cs" />
+    <Compile Include="Assets\ASL\3rd Party Libraries\Tango\TangoSDK\Examples\Common\Scripts\Editor\TangoDynamicMeshInspector.cs" />
+    <Compile Include="Assets\ASL\3rd Party Libraries\VRTK\Editor\VRTK_AdaptiveQualityEditor.cs" />
+    <Compile Include="Assets\ASL\3rd Party Libraries\VRTK\Editor\VRTK_EditorUtilities.cs" />
+    <Compile Include="Assets\ASL\3rd Party Libraries\VRTK\Editor\VRTK_InteractHapticsEditor.cs" />
+    <Compile Include="Assets\ASL\3rd Party Libraries\VRTK\Editor\VRTK_ObjectSetup.cs" />
+    <Compile Include="Assets\ASL\3rd Party Libraries\VRTK\Editor\VRTK_PolicyListEditor.cs" />
+    <Compile Include="Assets\ASL\3rd Party Libraries\VRTK\Editor\VRTK_RadialMenuEditor.cs" />
+    <Compile Include="Assets\ASL\3rd Party Libraries\VRTK\Editor\VRTK_SDKManagerEditor.cs" />
+    <Compile Include="Assets\ASL\3rd Party Libraries\VRTK\Editor\VRTK_SDKSetupEditor.cs" />
+    <Compile Include="Assets\ASL\3rd Party Libraries\VRTK\Editor\VRTK_SupportInfoWindow.cs" />
+    <Compile Include="Assets\ASL\3rd Party Libraries\VRTK\Editor\VRTK_UpdatePrompt.cs" />
+    <Compile Include="Assets\ASL\Editor\ExportAssetBundles.cs.cs" />
+    <Compile Include="Assets\ASL\Editor\TexturePostProcessor.cs" />
+    <Compile Include="Assets\ASL\Photon Unity Networking\Demos\DemoHub\Editor\PunStartup.cs" />
+    <Compile Include="Assets\ASL\Photon Unity Networking\Editor\PhotonNetwork\AccountService.cs" />
+    <Compile Include="Assets\ASL\Photon Unity Networking\Editor\PhotonNetwork\CullAreaEditor.cs" />
+    <Compile Include="Assets\ASL\Photon Unity Networking\Editor\PhotonNetwork\PhotonConverter.cs" />
+    <Compile Include="Assets\ASL\Photon Unity Networking\Editor\PhotonNetwork\PhotonEditor.cs" />
+    <Compile Include="Assets\ASL\Photon Unity Networking\Editor\PhotonNetwork\PhotonEditorUtils.cs" />
+    <Compile Include="Assets\ASL\Photon Unity Networking\Editor\PhotonNetwork\PhotonGUI.cs" />
+    <Compile Include="Assets\ASL\Photon Unity Networking\Editor\PhotonNetwork\PhotonViewHandler.cs" />
+    <Compile Include="Assets\ASL\Photon Unity Networking\Editor\PhotonNetwork\PhotonViewInspector.cs" />
+    <Compile Include="Assets\ASL\Photon Unity Networking\Editor\PhotonNetwork\PunSceneSettings.cs" />
+    <Compile Include="Assets\ASL\Photon Unity Networking\Editor\PhotonNetwork\ReorderableListResources.cs" />
+    <Compile Include="Assets\ASL\Photon Unity Networking\Editor\PhotonNetwork\ServerSettingsInspector.cs" />
+    <Compile Include="Assets\ASL\Photon Unity Networking\Editor\PhotonNetwork\Views\PhotonAnimatorViewEditor.cs" />
+    <Compile Include="Assets\ASL\Photon Unity Networking\Editor\PhotonNetwork\Views\PhotonRigidbody2DViewEditor.cs" />
+    <Compile Include="Assets\ASL\Photon Unity Networking\Editor\PhotonNetwork\Views\PhotonRigidbodyViewEditor.cs" />
+    <Compile Include="Assets\ASL\Photon Unity Networking\Editor\PhotonNetwork\Views\PhotonTransformViewEditor.cs" />
+    <Compile Include="Assets\ASL\Photon Unity Networking\UtilityScripts\PhotonPlayer\Editor\PlayerRoomIndexingInspector.cs" />
+    <Compile Include="Assets\ASL\Photon Unity Networking\UtilityScripts\PhotonPlayer\Editor\PunTeamsInspector.cs" />
+    <Compile Include="Assets\ASL\Plugins\UnityARKitPlugin\Plugins\iOS\UnityARKit\Editor\UnityARBuildPostprocessor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\ASL\3rd Party Libraries\OVR\Editor\AndroidManifest.OVRSubmission.xml" />
+    <None Include="Assets\ASL\3rd Party Libraries\OVR\Plugins\placeholder.txt" />
+    <None Include="Assets\ASL\3rd Party Libraries\OVR\Resources\Alpha Premultiply.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\OVR\Resources\OVRMRCameraFrame.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\OVR\Resources\OVRMRCameraFrameLit.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\OVR\Resources\OVRMRChromaKey.cginc" />
+    <None Include="Assets\ASL\3rd Party Libraries\OVR\Resources\OVRMRClipPlane.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\OVR\Resources\OVRMRUnlit.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\OVR\Resources\OVRMRUnlitTransparent.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\OVR\Resources\Underlay Impostor.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\OVR\Resources\Underlay Transparent Occluder.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\OVR\Resources\Unlit Transparent Color.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\OVR\Shaders\OVRColorRampAlpha.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\OVR\Shaders\Unlit Crosshair.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\DynamicShadowProjector\Readme.txt" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\DynamicShadowProjector\Shaders\Blit\Blit.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\DynamicShadowProjector\Shaders\Blit\Blur.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\DynamicShadowProjector\Shaders\Blit\CopyMipmap.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\DynamicShadowProjector\Shaders\Blit\Downsample.cginc" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\DynamicShadowProjector\Shaders\Blit\Downsample.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\DynamicShadowProjector\Shaders\Blit\DownsampleFallback.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\DynamicShadowProjector\Shaders\Blit\EraseShadow.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\DynamicShadowProjector\Shaders\Caps\glslCheck.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\DynamicShadowProjector\Shaders\Caps\tex2DlodExtensionCheck.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\DynamicShadowProjector\Shaders\Projector\DSPProjector.cginc" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\DynamicShadowProjector\Shaders\Projector\Dynamic\LightxShadowWithLinearFalloff.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\DynamicShadowProjector\Shaders\Projector\Dynamic\LightxShadowWithoutFalloff.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\DynamicShadowProjector\Shaders\Projector\Dynamic\MipmappedShadow.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\DynamicShadowProjector\Shaders\Projector\Dynamic\ShadowWithLinearFalloff.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\DynamicShadowProjector\Shaders\Projector\Dynamic\ShadowWithoutFalloff.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\DynamicShadowProjector\Shaders\Projector\LightWithLinearFalloff.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\DynamicShadowProjector\Shaders\Projector\LightWithoutFalloff.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\DynamicShadowProjector\Shaders\Projector\LightxShadowWithLinearFalloff.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\DynamicShadowProjector\Shaders\Projector\LightxShadowWithoutFalloff.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\DynamicShadowProjector\Shaders\Projector\MipmappedShadow.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\DynamicShadowProjector\Shaders\Projector\ShadowWithLinearFalloff.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\DynamicShadowProjector\Shaders\Projector\ShadowWithoutFalloff.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\DynamicShadowProjector\Shaders\Shadow\DSPShadow.cginc" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\DynamicShadowProjector\Shaders\Shadow\ShadowForReplacement.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\DynamicShadowProjector\Shaders\Shadow\ShadowOpaque.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\DynamicShadowProjector\Shaders\Shadow\ShadowTransparent.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\TangoPrefabs\Shaders\ARPostProcess.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\TangoPrefabs\Shaders\PointCloud.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\TangoPrefabs\Shaders\PointCloud_Occlusion.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\TangoPrefabs\Shaders\TangoEnvironmentalLighting\EnvironmentalLightingDiffuse.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\TangoPrefabs\Shaders\TangoEnvironmentalLighting\EnvironmentalLightingSpecularBumped.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\TangoPrefabs\Shaders\TangoEnvironmentalLighting\EnvironmentalLightingStandard.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\TangoPrefabs\Shaders\TangoEnvironmentalLighting\TangoEnvironmentalLighting.cginc" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\TangoPrefabs\Shaders\YUV2RGB.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\TangoSDK\Core\Shaders\ColorCameraEmulation.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\TangoSDK\Core\Shaders\DepthEmulation.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\TangoSDK\Core\Shaders\RGB2YUV_CbCr.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\TangoSDK\Core\Shaders\RGB2YUV_Y.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\TangoSDK\Core\Shaders\RGB_ARScreen.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\TangoSDK\Examples\ExperimentalMeshBuilderWithColor\Shaders\UnlitVertexColor.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\TangoSDK\Examples\ExperimentalMeshBuilderWithPhysics\Shader\UnlitColor.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\TangoSDK\Examples\ExperimentalMeshOcclusion\Shaders\OcclusionMask.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\TangoSDK\Examples\ExperimentalMeshOcclusion\Shaders\OcclusionMesh.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\TangoSDK\Examples\ExperimentalMeshOcclusion\Shaders\TangoOcclusion.cginc" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\TangoSDK\Examples\ExperimentalMeshOcclusion\Shaders\ZTestBlur.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\Tango\TangoSDK\Examples\SimpleAugmentedReality\Textures\README.txt" />
+    <None Include="Assets\ASL\3rd Party Libraries\VRTK\Scripts\Internal\Shaders\AdaptiveQualityDebugVisualization.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\VRTK\Scripts\Internal\Shaders\TransparentFresnelBehind.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\VRTK\Scripts\Internal\Shaders\UIOverlay.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\VRTK\Scripts\Internal\Shaders\Unlit_TransparentColor.shader" />
+    <None Include="Assets\ASL\3rd Party Libraries\VRTK\Scripts\Internal\Shaders\VRTK_OutlineBasic.shader" />
+    <None Include="Assets\ASL\Photon Unity Networking\Demos\DemoBoxes\Resources\eurof_tt.txt" />
+    <None Include="Assets\ASL\Photon Unity Networking\Demos\DemoRockPaperScissors\Assets\OpenSans\Apache License.txt" />
+    <None Include="Assets\ASL\Photon Unity Networking\Demos\MarcoPolo-Tutorial\marcopolo-readme.txt" />
+    <None Include="Assets\ASL\Photon Unity Networking\Demos\Shared Assets\Skin\3dText.shader" />
+    <None Include="Assets\ASL\Photon Unity Networking\changelog.txt" />
+    <None Include="Assets\ASL\Photon Unity Networking\link.xml" />
+    <None Include="Assets\ASL\Photon Unity Networking\readme.txt" />
+    <None Include="Assets\ASL\Plugins\Photon3Unity3D.xml" />
+    <None Include="Assets\ASL\Plugins\UnityARKitPlugin\ARKitRemote\ARKITREMOTE.txt" />
+    <None Include="Assets\ASL\Plugins\UnityARKitPlugin\Plugins\iOS\UnityARKit\Shaders\YUVShader.shader" />
+    <None Include="Assets\ASL\Plugins\UnityARKitPlugin\Plugins\iOS\UnityARKit\Shaders\YUVShaderLinear.shader" />
+    <None Include="Assets\ASL\Plugins\release_history.txt" />
+    <None Include="Assets\ASL\Resources\Materials\Shaders\PortalWebcamShader.shader" />
+    <None Include="Assets\ASL\Resources\Materials\Shaders\ScreenCutoutShader.shader" />
+    <None Include="Assets\ASL\Resources\Rooms\GradCouch1\GradCouch1Matrices.txt" />
+    <None Include="Assets\ASL\Resources\Rooms\GradCouch1\GradCouch1Mesh.txt" />
+    <None Include="Assets\ASL\Resources\Rooms\GradCouch1\GradCouch1Orientation.txt" />
+    <None Include="Assets\ASL\Resources\Rooms\GradCouch2\GradCouch2Matrices.txt" />
+    <None Include="Assets\ASL\Resources\Rooms\GradCouch2\GradCouch2Mesh.txt" />
+    <None Include="Assets\ASL\Resources\Rooms\GradCouch2\GradCouch2Orientation.txt" />
+    <None Include="Assets\ASL\Resources\Rooms\GradCouch3\GradCouch3Matrices.txt" />
+    <None Include="Assets\ASL\Resources\Rooms\GradCouch3\GradCouch3MatricesOld.txt" />
+    <None Include="Assets\ASL\Resources\Rooms\GradCouch3\GradCouch3Mesh.txt" />
+    <None Include="Assets\ASL\Resources\Rooms\GradCouch3\GradCouch3MeshOld.txt" />
+    <None Include="Assets\ASL\Resources\Rooms\GradCouch3\GradCouch3Orientation.txt" />
+    <None Include="Assets\ASL\Resources\Rooms\GradCouch3\GradCouch3OrientationOld.txt" />
+    <None Include="Assets\ASL\Resources\Rooms\GradCouch3\GradCouchOrientation.txt" />
+    <None Include="Assets\ASL\Resources\Rooms\MyRoom\ScannerPlatform.txt" />
+    <None Include="Assets\ASL\Resources\Rooms\MyRoom2\ScannerPlatform.txt" />
+    <None Include="Assets\ASL\Resources\Rooms\Room\RoomMatrices.txt" />
+    <None Include="Assets\ASL\Resources\Rooms\Room\RoomMesh.txt" />
+    <None Include="Assets\ASL\Resources\Rooms\Room\RoomOrientation.txt" />
+    <None Include="Assets\ASL\Resources\Rooms\Room2\Room2Matrices.txt" />
+    <None Include="Assets\ASL\Resources\Rooms\Room2\Room2Mesh.txt" />
+    <None Include="Assets\ASL\Resources\Rooms\Room2\Room2Orientation.txt" />
+    <None Include="Assets\ASL\Resources\Rooms\UW1_260\ScannerPlatform.txt" />
+    <None Include="Assets\ASL\Resources\Rooms\UW1_302\ScannerPlatform.txt" />
+    <None Include="Assets\ASL\Room_Texture\Resources\_Shaders\MyRoomShader.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>
